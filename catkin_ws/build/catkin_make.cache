@@ -1,0 +1,2 @@
+UI:luxonis/depthai-ros-examples/depthai_examples:luxonis/depthai-ros/depthai_bridge:luxonis/depthai-ros/depthai_ros_msgs
+-DCATKIN_DEVEL_PREFIX=/home/qiyi/Documents/okd/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/qiyi/Documents/okd/catkin_ws/install -G Unix Makefiles

@@ -1,0 +1,3 @@
+/home/qiyi/Documents/okd/catkin_ws/oak-d-params.yaml
+
+rosrun ORB_SLAM3 Stereo ../ORB_SLAM3/Vocabulary/ORBvoc.txt oak-d-params.yaml false /camera/left/image_raw:=/yolov4_publisher/left/image_rect /camera/right/image_raw:=/yolov4_publisher/right/image_rect

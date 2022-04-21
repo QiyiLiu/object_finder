@@ -1,0 +1,8 @@
+prefix=/home/qiyi/Documents/okd/catkin_ws/devel
+
+Name: UI
+Description: Description of UI
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
