@@ -211,6 +211,7 @@ def annotate_frame(frame_image_np, detection_objects_pos_np, tracked_objects_pos
             imageframe_y, imageframe_x = imageframe_pos[0:2] / imageframe_pos[2]
             imageframe_y, imageframe_x = int(imageframe_y), int(imageframe_x)
             cv2.line(frame_image_np, focal_point, (imageframe_y, imageframe_x), color, tracked_line_thickness)
+            
 
 
 def main(filepath_combined, filepath_unpacked, directory_frames, directory_annotated, filepath_video_annotated):
@@ -303,7 +304,7 @@ def main(filepath_combined, filepath_unpacked, directory_frames, directory_annot
 if __name__ == "__main__":
 
     # inputs
-    filepath_combined = r"D:\Documents\Academics\ROB498\Capstone-Prototype\data\combined.csv"
+    filepath_combined = r"/home/qiyi/Document/combined.csv"
     filepath_unpacked = r"D:\Documents\Academics\ROB498\Capstone-Prototype\data\unpacked.csv"
     directory_frames = r"D:\Documents\Academics\ROB498\Capstone-Prototype\data\frames"
 
